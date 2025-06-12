@@ -1,0 +1,11 @@
+{
+    "name": "uncivilized-4x-game",
+    "version": "0.1.0",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "bun server.js"
+    },
+    "dependencies": {
+        "three": "^0.174.0"
+    }
+}
