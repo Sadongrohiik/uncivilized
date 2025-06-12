@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Uncivilized - 3D 4X Game</title>
+    <style>
+        body { margin: 0; }
+        canvas { display: block; }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.174.0/three.module.min.js",
+                "three/addons/loaders/GLTFLoader.js": "./js/loaders/GLTFLoader.js",
+                "three/addons/controls/OrbitControls.js": "./js/controls/OrbitControls.js"
+            }
+        }
+    </script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
